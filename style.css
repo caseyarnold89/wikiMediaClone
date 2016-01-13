@@ -42,23 +42,18 @@ body {
     line-height: 18px;
 }
 
-footer {
+.footer {
     width: 70%;
     margin: 0 auto;
 }
 
-ul {
-    margin: 0 auto;
-    text-align: center;
-}
-
-li {
+.link {
     display: inline;
     font-size: 12px;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: darkslateblue;
 }
