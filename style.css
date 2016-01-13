@@ -31,7 +31,7 @@ body {
 
 .otherMedia {
     width: 70%;
-    margin: 0 auto;
+    float: left;
 }
 
 .slogan {
@@ -39,18 +39,22 @@ body {
     margin: 0 auto;
     font-size: 12px;
     text-align: center;
-    line-height: 18px;
+    line-height: 24px;
+    clear: both;
 }
 
 .footer {
     width: 70%;
     margin: 0 auto;
+    text-align: center;
+    clear: both;
 }
 
 .link {
     display: inline;
     font-size: 12px;
-    margin-left: 10px;
+    margin: 0 auto;
+    margin-right: 20px;
 }
 
 a {
