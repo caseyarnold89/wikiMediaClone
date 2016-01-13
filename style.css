@@ -1,19 +1,54 @@
 body {
     font-family: Arial;
+    line-height: 20pt;
 }
 
 .textContainer {
     width:70%;
     margin: 0 auto;
+    padding-top: 5%;
     font-size: 14pt;
     position: relative;
+    text-align: justify;
 }
 
 .wikDes {
-    margin-bottom: 25px;
+    margin: 20px 0px;
 }
 
 .wikSig {
     font-weight: 800;
+    position: absolute;
+    right: 0px;
+    margin-bottom: 25px;
+}
+
+.pageGrid {
+    width: 70%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.otherMedia {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slogan {
+    clear: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 70%;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
     display: inline;
+    margin: 0 auto;
 }
