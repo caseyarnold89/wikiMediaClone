@@ -29,16 +29,15 @@ body {
     margin: 0 auto;
 }
 
-/*.otherMedia {
-    display:inline-block;
-    width: 25%;
-}*/
-
 img {
-    display: inline-block;
-    width: auto;
-    height: auto;
+    display: inline;
+    width: 150px;
+    height: 175px;
 }
+
+/*.sites {
+    display: inline-block;
+}*/
 
 .slogan {
     width: 70%;
