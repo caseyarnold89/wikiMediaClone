@@ -25,19 +25,22 @@ body {
 
 .pageGrid {
     width: 70%;
-    padding-top: 50px;
     margin: 0 auto;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.gridItem {
+    display: inline-block;
+    width: 24.5%;
+    text-align: justify;
 }
 
 img {
-    display: inline;
-    width: 150px;
-    height: 175px;
+    max-width: 175px;
+    min-width: 100px;
+    max-height: 155px;
 }
-
-/*.sites {
-    display: inline-block;
-}*/
 
 .slogan {
     width: 70%;
